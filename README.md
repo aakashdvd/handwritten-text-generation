@@ -1,4 +1,4 @@
-#Handwritten Text Generation
+# Handwritten Text Generation
 
 ##Overview
 
