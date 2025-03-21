@@ -1,10 +1,10 @@
 # Handwritten Text Generation
 
-##Overview
+## Overview
 
 This project implements a deep learning-based Handwritten Text Generation model capable of synthesizing realistic handwritten text from digital input. By leveraging advanced neural networks, the model learns stylistic features of human handwriting and replicates them dynamically based on user-provided text.
 
-##Features
+## Features
 
 - Converts typed text into realistic handwritten output.
 
@@ -14,11 +14,11 @@ This project implements a deep learning-based Handwritten Text Generation model 
 
 - Allows customization of stroke thickness, slant, and spacing parameters.
 
-##Installation
+## Installation
 
 To set up and execute the project, follow these steps:
 
-###Prerequisites
+### Prerequisites
 
 Ensure you have the following dependencies installed:
 
@@ -28,7 +28,7 @@ Ensure you have the following dependencies installed:
 
 - Required libraries (listed in requirements.txt)
 
-##Clone Repository
+## Clone Repository
 
 `git clone https://github.com/YOUR_USERNAME/handwritten-text-generation.git
 cd handwritten-text-generation`
@@ -39,7 +39,7 @@ Install Dependencies
 
 Running the Code
 
-Using Jupyter Notebook
+### Using Jupyter Notebook
 
 Launch Jupyter Notebook:
 
@@ -47,11 +47,11 @@ Launch Jupyter Notebook:
 
 Open handwritten-text-generation.ipynb and execute the code cells sequentially.
 
-##Project Breakdown
+## Project Breakdown
 
 This project employs a deep learning pipeline to generate synthetic handwriting based on input text. The workflow is outlined below:
 
-###1. Data Preprocessing
+### 1. Data Preprocessing
 
 - A dataset of handwritten samples is curated and cleaned.
 
@@ -59,7 +59,7 @@ This project employs a deep learning pipeline to generate synthetic handwriting 
 
 - Data augmentation techniques, such as rotation and distortion, enhance model generalization.
 
-###2. Model Architecture
+### 2. Model Architecture
 
 - A Recurrent Neural Network (RNN) or Transformer-based architecture is employed to capture handwriting style and temporal dependencies.
 
@@ -67,7 +67,7 @@ This project employs a deep learning pipeline to generate synthetic handwriting 
 
 - These stroke sequences are subsequently rendered into an image.
 
-###3. Text-to-Handwriting Generation
+### 3. Text-to-Handwriting Generation
 
 - The user-provided text is processed through the trained model.
 
@@ -75,13 +75,13 @@ This project employs a deep learning pipeline to generate synthetic handwriting 
 
 - The strokes are rendered into an image, preserving the unique characteristics of human writing.
 
-###4. Post-processing & Output Generation
+### 4. Post-processing & Output Generation
 
 - Refinement techniques, such as smoothing and anti-aliasing, are applied to improve visual realism.
 
 - The final output is either displayed inline or saved as an image file (PNG/JPEG).
 
-##Execution Steps
+## Execution Steps
 
 1. Input your desired text within the notebook or script.
 
@@ -91,7 +91,7 @@ This project employs a deep learning pipeline to generate synthetic handwriting 
 
 4. The resulting handwriting image will be displayed or saved to disk.
 
-##Deployment Options
+## Deployment Options
 
 To enable users to generate handwritten text dynamically without rerunning the entire script:
 
@@ -101,13 +101,11 @@ To enable users to generate handwritten text dynamically without rerunning the e
 
 - Implement an API that allows remote text-to-handwriting generation requests.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you have enhancements or bug fixes, feel free to fork the repository and submit a pull request.
 
 License
 
 This project is licensed under the MIT License.
-
-Author: Your NameGitHub: Your GitHub Profile
 
